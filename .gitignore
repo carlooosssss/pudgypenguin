@@ -1,0 +1,57 @@
+# Entornos virtuales de Python
+venv/
+*.pyc
+__pycache__/
+
+# Configuración de entornos
+.env
+*.env
+
+# Archivos de configuración sensibles
+config.py
+*.cfg
+*.ini
+
+# Archivos de base de datos locales
+*.db
+*.sqlite3
+
+# Archivos y carpetas creados por Flask
+instance/
+*.log
+
+# Directorios de caché y archivos temporales
+tmp/
+*.bak
+
+# Docker
+Dockerfile
+docker-compose.yml
+*.pid
+*.log
+
+# Node.js (por si usas frontend o dependencias npm)
+node_modules/
+package-lock.json
+npm-debug.log
+yarn.lock
+
+# Archivos de IDE (VSCode, PyCharm, etc.)
+.vscode/
+.idea/
+*.swp
+
+# Imágenes y volúmenes de Docker
+docker-compose.override.yml
+.env.docker
+
+# Archivos de despliegue (Render, Clever Cloud)
+.clever.json
+*.env.clevercloud
+render.yaml
+
+# Otros
+*.tar
+*.zip
+*.gz
+*.rar
